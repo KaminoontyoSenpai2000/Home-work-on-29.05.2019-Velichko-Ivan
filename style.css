@@ -1,0 +1,179 @@
+body {
+	background-color: rgb(240,248,255);
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+header h1{
+	text-align: center;
+}
+
+header p{
+	text-align: center;
+}
+
+header ul {
+	margin: auto;
+	width: 6%;
+}
+
+.logo {
+	width: 24px;
+}
+
+.common-sittings {
+	width: 80%;
+	margin: auto;
+	background-color: white;
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+
+.main-h2 {
+	margin-left: 3%;
+}
+
+.border-sittings {
+	border: 2px solid black;
+	width: 88%;
+	margin-left: 5%;
+	margin-top: 20px;
+	padding-left: 1%; 
+	padding-right: 1%;
+	height: 220px;
+}
+
+.border-sittings-popular {
+	border: 2px solid black;
+	width: 88%;
+	margin-left: 5%;
+	margin-top: 20px;
+	padding-left: 1%; 
+	padding-right: 1%;
+	height: 340px;
+}
+
+main img {
+	width: 24px;
+}
+
+.input-sittings {
+	margin-left: 92%;
+	margin-top: 20px;
+	padding: 5px 10px 5px 10px;
+	background-color: rgb(158,170,202);
+	border: 2px solid rgb(70,70,100);
+	border-radius: 7px;
+	color: rgb(56,23,141);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.input-sittings:hover {
+	border-color: rgb(116,68,141);
+}
+
+.menu {
+	border: 1px solid rgb(211,211,211);
+	border-radius: 15px;
+	background-color: rgb(211,211,211);
+	width: 96%;
+	margin: auto;
+	padding: 0;
+}
+
+.some-news {
+	border: 1px solid rgb(211,211,211);
+	border-radius: 15px;
+	background-color: rgb(211,211,211);
+	width: 94%;
+	margin-left: 3%;
+}
+
+hr {
+	height: 3px;
+	background-color: black;
+	width: 98%;
+}
+
+.selected-news-1 img {
+	float: right;
+	width: 180px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.selected-news-2 img {
+	float: left;
+	width: 180px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.the-most-popular-news-1 img {
+	float: right;
+	width: 180px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.the-most-popular-news-2 img {
+	float: left;
+	width: 180px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.section-bottom-sittings {
+	margin: 0 3% 0 3%;
+}
+
+.border-sittings-footer {
+	border: 2px solid black;
+	width: 60px;
+	height: 20px;
+	margin-left: 5%;
+	margin-top: 20px;
+	padding-left: 1%; 
+	padding-right: 1%;
+	padding-top: 10px;
+	background-color: rgb(204,204,238);
+	overflow: hidden;
+	text-align: bottom;
+}
+
+:target {
+	width: 800px;
+	height: 200px; 
+	background-color: rgb(240, 240, 240);
+}
+
+footer {
+	width: 100%;
+	background-color: rgb(211,211,211);
+	height: 130px;
+	font-style: italic;
+	position: sticky;
+	bottom: -1px;
+}
+
+footer h3 {
+	padding-top: 5px;
+	padding-left: 10px;
+	margin-bottom: 8px;
+}
+
+.footer-a {
+	padding-left: 20px;
+}
+
+footer a {
+	padding-left: 10px;
+}
+
+footer p {
+	padding-left: 10px;
+}
