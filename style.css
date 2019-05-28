@@ -33,6 +33,10 @@ header ul {
 	padding-bottom: 2%;
 }
 
+.a-black {
+	color: black;
+}
+
 .main-h2 {
 	margin-left: 3%;
 }
@@ -131,15 +135,15 @@ hr {
 	margin: 0 3% 0 3%;
 }
 
-.border-sittings-footer {
+.border-sittings-article {
 	border: 2px solid black;
-	width: 60px;
-	height: 20px;
+	width: 75px;
+	height: 40px;
 	margin-left: 5%;
 	margin-top: 20px;
 	padding-left: 1%; 
 	padding-right: 1%;
-	padding-top: 10px;
+	
 	background-color: rgb(204,204,238);
 	overflow: hidden;
 	text-align: bottom;
@@ -147,8 +151,12 @@ hr {
 
 :target {
 	width: 800px;
-	height: 200px; 
+	height: 180px; 
 	background-color: rgb(240, 240, 240);
+}
+
+.last-button {
+	margin-left: 94.7%;
 }
 
 footer {
